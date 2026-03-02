@@ -116,7 +116,7 @@ export default function SignupPage() {
 
         <div className="glass-card rounded-3xl p-8">
           <h2 className="font-display text-xl font-bold text-white mb-1">Create Account</h2>
-          <p className="text-gray-400 text-sm mb-6">Join Jahan Chatbot Airlines</p>
+          <p className="text-gray-400 text-sm mb-6">Join AirAssist: Airline Chatbot</p>
 
           {error && (
             <div className="bg-red-500/10 border border-red-500/30 text-red-400 rounded-xl px-4 py-3 text-sm mb-5">

@@ -170,7 +170,7 @@ export default function BoardingPass({ ticket, compact = false }) {
         <div className="bg-gradient-to-r from-navy-800 to-navy-700 px-6 pt-6 pb-4">
           <div className="flex items-center justify-between mb-4">
             <div>
-              <div className="text-xs font-mono tracking-[0.2em] text-sky-accent/70 uppercase mb-1">Jahan Chatbot Airlines</div>
+              <div className="text-xs font-mono tracking-[0.2em] text-sky-accent/70 uppercase mb-1">AirAssist: Airline Chatbot</div>
               <div className="text-[10px] text-gray-500 tracking-widest uppercase">Mobile Boarding Pass</div>
             </div>
             {/* Mini logo */}

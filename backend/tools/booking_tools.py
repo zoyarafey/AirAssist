@@ -254,7 +254,7 @@ def format_booking_for_display(booking: dict) -> dict:
         "baggage_allowance": booking.get("baggage_allowance", "23kg"),
         "gate": f"A{gate_num}",
         "terminal": "Terminal 1",
-        "airline": "Jahan Chatbot Airlines",
+        "airline": "AirAssist: Airline ",
         # Passenger info
         "passenger_name": booking.get("passenger_name", ""),
         "passenger_email": booking.get("passenger_email", ""),

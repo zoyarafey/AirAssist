@@ -1,6 +1,6 @@
 ==================================================
   AIRASSIST — RUN INSTRUCTIONS
-  Jahan Chatbot Airlines Support Chatbot
+  Airline Support Chatbot
 ==================================================
 
 PREREQUISITES

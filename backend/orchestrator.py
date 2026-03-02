@@ -110,7 +110,7 @@ def ticket_response(booking: dict, msg: str = "") -> dict:
         "baggage_allowance": booking.get("baggage_allowance", ""),
         "gate": booking.get("gate", "A" + str(hash(booking.get("pnr",""))%20+1)),
         "terminal": booking.get("terminal", "Terminal 1"),
-        "airline": "Jahan Chatbot Airlines"
+        "airline": "AirAssist: Airline"
     }
 
 def flight_list_response(flights: list, msg: str) -> dict:
@@ -399,7 +399,7 @@ def process_message(user_id: str, message: str, user_info: dict) -> dict:
 
     if intent == "greeting":
         return text(
-            f"Hello **{first}**! 👋 Welcome to **Jahan Chatbot Airlines** support.\n\n"
+            f"Hello **{first}**! 👋 Welcome to **AirAssist: Airline Chatbot** support.\n\n"
             f"Here's what I can help you with:\n"
             f"🎫 **Book a flight** — search and book flights\n"
             f"📋 **My bookings** — view your boarding passes\n"
@@ -435,7 +435,7 @@ def process_message(user_id: str, message: str, user_info: dict) -> dict:
         return text(f"You're welcome, {first}! ✈️ Is there anything else I can help you with?")
 
     if intent == "bye":
-        return text(f"Goodbye, {first}! Safe travels! ✈️ Have a wonderful journey with Jahan Chatbot Airlines!")
+        return text(f"Goodbye, {first}! Safe travels! ✈️ Have a wonderful journey with AirAssist: Airline!")
 
     if intent == "show_bookings":
         result = get_user_bookings(user_id)

@@ -139,7 +139,7 @@ export default function HomePage() {
               <div>
                 <p className="text-sm text-sky-accent/70 mb-1">{greeting},</p>
                 <h1 className="font-display text-3xl font-bold text-white">{firstName} ✈️</h1>
-                <p className="text-gray-400 text-sm mt-2">Welcome to Jahan Chatbot Airlines support portal</p>
+                <p className="text-gray-400 text-sm mt-2">Welcome to AirAssist: Airline Chatbot support portal</p>
               </div>
               <div className="text-7xl opacity-10 select-none hidden sm:block">✈</div>
             </div>

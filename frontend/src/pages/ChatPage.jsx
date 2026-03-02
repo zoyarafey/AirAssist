@@ -7,7 +7,7 @@ import { BotMessage, UserMessage, TypingIndicator } from '../components/ChatMess
 
 const WELCOME_MSG = {
   type: 'text',
-  message: "Hello! 👋 Welcome to **Jahan Chatbot Airlines** support.\n\nI can help you with:\n- 🎫 **Book a flight** — Type \"book a flight\"\n- 📋 **View bookings** — Type \"my bookings\"\n- ❌ **Cancel booking** — Type \"cancel my flight\"\n- ✏️ **Update journey** — Type \"update my flight\"\n- 🧳 **Baggage policy** — Type \"baggage allowance\"\n\nHow can I assist you today?",
+  message: "Hello! 👋 Welcome to **AirAssist: Airline Chatbot** support.\n\nI can help you with:\n- 🎫 **Book a flight** — Type \"book a flight\"\n- 📋 **View bookings** — Type \"my bookings\"\n- ❌ **Cancel booking** — Type \"cancel my flight\"\n- ✏️ **Update journey** — Type \"update my flight\"\n- 🧳 **Baggage policy** — Type \"baggage allowance\"\n\nHow can I assist you today?",
   id: 'welcome'
 }
 

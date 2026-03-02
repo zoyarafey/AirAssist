@@ -19,10 +19,10 @@ export default function AirlineLogo({ size = 'md', className = '' }) {
       </div>
       <div>
         <div className={`font-display font-bold text-white leading-none tracking-wide ${s.titleSize}`}>
-          JAHAN
+          AirAssist
         </div>
         <div className={`font-body font-light tracking-[0.2em] text-sky-300 uppercase ${s.subtitleSize}`}>
-          Chatbot Airlines
+          Airline Chatbot
         </div>
       </div>
     </div>
