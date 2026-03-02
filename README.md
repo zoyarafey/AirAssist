@@ -47,25 +47,6 @@ airassist/
     └── utils/              # CSV handler, helpers
 ```
 
----
-
-## 🚀 Running the Project
-
-### Backend
-```bash
-cd backend
-pip install fastapi uvicorn
-uvicorn main:app --reload --port 8000
-```
-
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Then open: **http://localhost:3000**
 
 ---
 
