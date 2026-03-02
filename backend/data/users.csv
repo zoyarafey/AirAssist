@@ -1,0 +1,5 @@
+user_id,username,password_hash,full_name,email,phone,address
+USR000001,amar_sharma,password123,Amar Sharma,user@gmail.com,+919876543210,New Delhi India
+USR000002,priya_mehta,pass456,Priya Mehta,priya.mehta@email.com,+91 8765432109,Mumbai India
+USR000003,rahul_verma,mypass789,Rahul Verma,rahul.verma@email.com,+91 7654321098,Bangalore India
+USR3176130,zoya,123456,Zoya Rafey,zoya@gmail.com,+911234567890,COUNTRY:India

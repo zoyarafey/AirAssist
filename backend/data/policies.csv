@@ -1,0 +1,16 @@
+policy_id,topic,scope_type,scope_value,fare_class,rule_summary,rule_detail,effective_from,effective_to,source_id
+POL001,baggage,cabin,Economy,Y,23kg checked + 7kg cabin,Economy passengers are allowed 1 checked bag up to 23kg and 1 cabin bag up to 7kg. Additional bags cost INR 2500 each. Excess weight charged at INR 350 per kg.,2025-01-01,2026-12-31,SRC001
+POL002,baggage,cabin,Business,J,32kg checked + 12kg cabin,Business class passengers are allowed 2 checked bags up to 32kg each and 1 cabin bag up to 12kg. Additional bags cost INR 1500 each.,2025-01-01,2026-12-31,SRC001
+POL003,baggage,cabin,First,F,40kg checked + 15kg cabin,First class passengers are allowed 3 checked bags up to 40kg each and 2 cabin bags up to 15kg total.,2025-01-01,2026-12-31,SRC001
+POL004,baggage,cabin,Premium Economy,W,28kg checked + 10kg cabin,Premium Economy passengers are allowed 2 checked bags up to 28kg each and 1 cabin bag up to 10kg.,2025-01-01,2026-12-31,SRC001
+POL005,cancellation,global,all,Y,80% refund if cancelled 24h+ before departure,Economy tickets cancelled more than 24 hours before departure receive 80% refund. 12-24 hours: 50% refund. Less than 12 hours: No refund.,2025-01-01,2026-12-31,SRC002
+POL006,cancellation,global,all,J,90% refund if cancelled 24h+ before departure,Business tickets cancelled more than 24 hours before departure receive 90% refund. 12-24 hours: 70% refund. Less than 12 hours: 20% refund.,2025-01-01,2026-12-31,SRC002
+POL007,cancellation,global,all,F,Full refund if cancelled 24h+ before departure,First class tickets are fully refundable if cancelled more than 24 hours before departure. 12-24 hours: 90% refund. Less than 12 hours: 50% refund.,2025-01-01,2026-12-31,SRC002
+POL008,refund,global,all,Y,Refund in 7-10 business days,Refunds are processed within 7-10 business days to the original payment method. Credit card refunds may take an additional 3-5 business days.,2025-01-01,2026-12-31,SRC003
+POL009,refund,global,all,J,Refund in 5-7 business days,Business class refunds are prioritized and processed within 5-7 business days.,2025-01-01,2026-12-31,SRC003
+POL010,no_show,global,all,all,No refund on no-show,Passengers who do not show up at the gate without prior cancellation forfeit the full ticket amount regardless of fare class.,2025-01-01,2026-12-31,SRC004
+POL011,change_fee,global,all,Y,INR 1500 change fee for Economy,Economy ticket changes are allowed up to 4 hours before departure. A change fee of INR 1500 applies plus any fare difference.,2025-01-01,2026-12-31,SRC005
+POL012,change_fee,global,all,J,INR 500 change fee for Business,Business ticket changes are allowed up to 2 hours before departure. A change fee of INR 500 applies plus any fare difference.,2025-01-01,2026-12-31,SRC005
+POL013,change_fee,global,all,F,No change fee for First class,First class tickets can be changed at any time before departure at no charge. Fare difference may apply.,2025-01-01,2026-12-31,SRC005
+POL014,baggage,special,carry_on,all,One personal item free,All passengers may carry one personal item free of charge in addition to their cabin allowance.,2025-01-01,2026-12-31,SRC001
+POL015,cancellation,special,check_in,all,Web check-in opens 48 hours before departure,Web check-in is available from 48 hours and closes 2 hours before departure. Airport check-in closes 60 minutes before departure.,2025-01-01,2026-12-31,SRC002

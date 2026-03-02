@@ -1,0 +1,5 @@
+booking_id,user_id,pnr,flight_id,flight_number,origin,destination,origin_city,destination_city,origin_airport,destination_airport,depart_date,depart_time,arrive_time,cabin,fare_class,status,base_fare,taxes,total_fare,baggage_allowance,created_at
+BK00000001,USR000001,JHAN-A1B2C,FL00522,SG296,DEL,NYC,New Delhi,New York,Indira Gandhi Intl,JFK Intl,2026-06-27,17:30,03:45,Economy,Y,CONFIRMED,41816,7526.88,49342.88,23kg,2026-02-10 10:30:00
+BK00000002,USR000001,JHAN-D3E4F,FL00383,JA685,DEL,SIN,New Delhi,Singapore,Indira Gandhi Intl,Changi Airport,2026-08-01,03:45,17:15,Business,J,CONFIRMED,55000,9900,64900,32kg,2026-02-15 14:20:00
+BK00000003,USR000002,JHAN-G5H6I,FL00147,9W659,BOM,LHR,Mumbai,London,Chhatrapati Shivaji Intl,Heathrow Airport,2026-06-10,17:45,21:30,Economy,Y,CONFIRMED,18000,3240,21240,23kg,2026-02-12 09:15:00
+BK3606532190,USR3176130,JHAN-6JG21,FL08582,UK256,DEL,GOI,New Delhi,Goa,Indira Gandhi Intl,Goa Intl,2026-05-31,06:00,17:30,Economy,Y,CONFIRMED,8304.0,1494.72,29396.16,23kg,2026-03-02 17:28:44

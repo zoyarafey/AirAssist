@@ -1,0 +1,83 @@
+airport_code,airport_name,city,country,aliases
+DEL,Indira Gandhi International Airport,Delhi,India,New Delhi|IGI|Indira Gandhi
+BOM,Chhatrapati Shivaji Maharaj International Airport,Mumbai,India,Bombay|CST|Chhatrapati Shivaji
+BLR,Kempegowda International Airport,Bangalore,India,Bengaluru|Kempegowda
+HYD,Rajiv Gandhi International Airport,Hyderabad,India,Rajiv Gandhi|RGIA
+MAA,Chennai International Airport,Chennai,India,Madras|Chennai Intl
+CCU,Netaji Subhas Chandra Bose International Airport,Kolkata,India,Calcutta|Netaji Subhas|NSCBI
+AMD,Sardar Vallabhbhai Patel International Airport,Ahmedabad,India,SVP|Sardar Vallabhbhai
+PNQ,Pune International Airport,Pune,India,Lohegaon
+COK,Cochin International Airport,Kochi,India,Cochin|Ernakulam
+GOI,Goa International Airport,Goa,India,Dabolim|Vasco da Gama
+ATQ,Sri Guru Ram Dass Jee International Airport,Amritsar,India,Amritsar Intl
+IXC,Chandigarh International Airport,Chandigarh,India,Chandigarh Intl
+LKO,Chaudhary Charan Singh International Airport,Lucknow,India,Amausi|CCS
+PAT,Jay Prakash Narayan International Airport,Patna,India,Patna Intl
+BHO,Raja Bhoj International Airport,Bhopal,India,Raja Bhoj
+IDR,Devi Ahilya Bai Holkar Airport,Indore,India,Holkar
+NAG,Dr. Babasaheb Ambedkar International Airport,Nagpur,India,Ambedkar|Sonegaon
+SXR,Sheikh ul Alam International Airport,Srinagar,India,Sheikh ul Alam
+JDH,Jodhpur Airport,Jodhpur,India,Jodhpur Intl
+JAI,Jaipur International Airport,Jaipur,India,Sanganer
+UDR,Maharana Pratap Airport,Udaipur,India,Dabok
+VNS,Lal Bahadur Shastri International Airport,Varanasi,India,Babatpur|Benares
+NYC,John F. Kennedy International Airport,New York,USA,JFK|New York JFK|Kennedy|New York City|NY
+LGA,LaGuardia Airport,New York,USA,LaGuardia|New York LaGuardia|New York City|NY
+EWR,Newark Liberty International Airport,Newark,USA,Newark|New York Newark|New York City|NY
+LHR,Heathrow Airport,London,UK,London Heathrow|Heathrow Intl
+LGW,Gatwick Airport,London,UK,London Gatwick|Gatwick
+STN,London Stansted Airport,London,UK,London Stansted|Stansted
+DXB,Dubai International Airport,Dubai,UAE,Dubai Intl
+AUH,Abu Dhabi International Airport,Abu Dhabi,UAE,Abu Dhabi Intl
+SHJ,Sharjah International Airport,Sharjah,UAE,Sharjah Intl
+SIN,Singapore Changi Airport,Singapore,Singapore,Changi|Changi Intl
+KUL,Kuala Lumpur International Airport,Kuala Lumpur,Malaysia,KLIA|KL
+BKK,Suvarnabhumi Airport,Bangkok,Thailand,Suvarnabhumi|Bangkok Intl
+DMK,Don Mueang International Airport,Bangkok,Thailand,Don Mueang|Bangkok Don Mueang
+CDG,Charles de Gaulle Airport,Paris,France,De Gaulle|Roissy|Paris CDG
+ORY,Orly Airport,Paris,France,Paris Orly|Orly
+FRA,Frankfurt Airport,Frankfurt,Germany,Frankfurt Intl|Rhein-Main
+NRT,Narita International Airport,Tokyo,Japan,Narita|Tokyo Narita
+HND,Haneda Airport,Tokyo,Japan,Tokyo Haneda|Haneda Intl
+ICN,Incheon International Airport,Seoul,South Korea,Incheon|Seoul Incheon
+GMP,Gimpo International Airport,Seoul,South Korea,Gimpo|Seoul Gimpo
+HKG,Hong Kong International Airport,Hong Kong,China,Hong Kong Intl|Chek Lap Kok
+PEK,Beijing Capital International Airport,Beijing,China,Beijing Capital|Capital Intl
+PVG,Shanghai Pudong International Airport,Shanghai,China,Pudong|Shanghai Pudong
+SHA,Shanghai Hongqiao International Airport,Shanghai,China,Hongqiao|Shanghai Hongqiao
+SYD,Sydney Kingsford Smith Airport,Sydney,Australia,Kingsford Smith|Sydney Intl
+MEL,Melbourne Airport,Melbourne,Australia,Tullamarine|Melbourne Intl
+DOH,Hamad International Airport,Doha,Qatar,Hamad Intl|Qatar
+KWI,Kuwait International Airport,Kuwait City,Kuwait,Kuwait Intl
+BAH,Bahrain International Airport,Manama,Bahrain,Bahrain Intl
+MCT,Muscat International Airport,Muscat,Oman,Seeb|Muscat Intl
+CMB,Bandaranaike International Airport,Colombo,Sri Lanka,Bandaranaike|Katunayake
+DAC,Hazrat Shahjalal International Airport,Dhaka,Bangladesh,Shahjalal|Zia Intl
+KTM,Tribhuvan International Airport,Kathmandu,Nepal,Tribhuvan
+JNB,OR Tambo International Airport,Johannesburg,South Africa,OR Tambo|Jan Smuts
+YYZ,Toronto Pearson International Airport,Toronto,Canada,Pearson|Toronto Intl
+YUL,Montreal Pierre Elliott Trudeau International Airport,Montreal,Canada,Trudeau|Dorval
+LAX,Los Angeles International Airport,Los Angeles,USA,LA|Los Angeles Intl|LAX
+SFO,San Francisco International Airport,San Francisco,USA,SF|SFO Intl
+ORD,O'Hare International Airport,Chicago,USA,O'Hare|Chicago O'Hare
+MDW,Chicago Midway International Airport,Chicago,USA,Midway|Chicago Midway
+DFW,Dallas Fort Worth International Airport,Dallas,USA,Dallas Fort Worth|DFW Intl
+MIA,Miami International Airport,Miami,USA,Miami Intl
+BOS,Logan International Airport,Boston,USA,Logan|Boston Logan
+ATL,Hartsfield-Jackson Atlanta International Airport,Atlanta,USA,Hartsfield|Atlanta Intl
+AMS,Amsterdam Airport Schiphol,Amsterdam,Netherlands,Schiphol
+MAD,Adolfo Suárez Madrid–Barajas Airport,Madrid,Spain,Barajas|Madrid Barajas
+BCN,Barcelona–El Prat Airport,Barcelona,Spain,El Prat|Barcelona Intl
+FCO,Leonardo da Vinci International Airport,Rome,Italy,Fiumicino|Rome Fiumicino
+MXP,Milan Malpensa Airport,Milan,Italy,Malpensa|Milan Malpensa
+ZRH,Zurich Airport,Zurich,Switzerland,Kloten|Zurich Intl
+VIE,Vienna International Airport,Vienna,Austria,Schwechat|Vienna Schwechat
+BRU,Brussels Airport,Brussels,Belgium,Zaventem|Brussels Zaventem
+CPH,Copenhagen Airport,Copenhagen,Denmark,Kastrup|Copenhagen Kastrup
+ARN,Stockholm Arlanda Airport,Stockholm,Sweden,Arlanda
+OSL,Oslo Gardermoen Airport,Oslo,Norway,Gardermoen
+HEL,Helsinki Airport,Helsinki,Finland,Vantaa|Helsinki Vantaa
+IST,Istanbul Airport,Istanbul,Turkey,Istanbul New Airport
+SAW,Sabiha Gokcen International Airport,Istanbul,Turkey,Sabiha Gokcen|Istanbul Sabiha
+GRU,São Paulo/Guarulhos International Airport,São Paulo,Brazil,Guarulhos|Sao Paulo Intl
+MEX,Mexico City International Airport,Mexico City,Mexico,Benito Juarez|NAICM

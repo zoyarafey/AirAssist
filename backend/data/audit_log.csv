@@ -1,0 +1,8 @@
+timestamp,user_id,action,object_type,object_id,input,result,status
+2026-02-25 19:09:12,USR000001,UPDATE_PROFILE,user,USR000001,"{""field"": ""email"", ""old"": ""amar.sharma@email.com"", ""new"": ""newemail@test.com""}","{""updated"": true}",SUCCESS
+2026-02-25 19:09:12,USR000001,UPDATE_PROFILE,user,USR000001,"{""field"": ""phone"", ""old"": ""+91 98764210"", ""new"": ""+91 99999 88888""}","{""updated"": true}",SUCCESS
+2026-02-26 10:26:47,USR000001,UPDATE_PROFILE,user,USR000001,"{""field"": ""phone"", ""old"": ""+91 9876543210"", ""new"": ""+91 11111 22222""}","{""updated"": true}",SUCCESS
+2026-02-26 10:26:47,USR000001,UPDATE_PROFILE,user,USR000001,"{""field"": ""phone"", ""old"": ""+91 11111 22222"", ""new"": ""+91 9876543210""}","{""updated"": true}",SUCCESS
+2026-02-26 18:47:36,USR000001,UPDATE_PROFILE,user,USR000001,"{""field"": ""email"", ""old"": ""amar.sharma@email.com"", ""new"": ""user@gmail.com""}","{""updated"": true}",SUCCESS
+2026-02-26 18:47:36,USR000001,UPDATE_PROFILE,user,USR000001,"{""field"": ""phone"", ""old"": ""+91 9876543210"", ""new"": ""+919876543210""}","{""updated"": true}",SUCCESS
+2026-03-02 17:28:44,USR3176130,CREATE_BOOKING,booking,BK3606532190,"{""flight_id"": ""FL08582"", ""cabin"": ""Economy""}","{""pnr"": ""JHAN-6JG21"", ""total"": 29396.16}",SUCCESS
