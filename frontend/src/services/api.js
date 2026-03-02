@@ -1,6 +1,6 @@
 // FIX 1: Use relative /api URLs so Vite proxy handles CORS
 // Previously used hardcoded 'http://localhost:8000' which fails on CORS-strict browsers
-const BASE_URL = ''
+const BASE_URL = 'https://airassist.onrender.com'
 
 async function apiCall(endpoint, method = 'GET', body = null) {
   const options = {
@@ -11,7 +11,7 @@ async function apiCall(endpoint, method = 'GET', body = null) {
 
   try {
     // FIX 1: prefix /api so Vite proxy forwards to http://localhost:8000
-    const res = await fetch(`${BASE_URL}/api${endpoint}`, options)
+    const res = await fetch(`${BASE_URL}${endpoint}`, options)
     if (!res.ok) {
       const err = await res.json().catch(() => ({ detail: 'Server error' }))
       // FIX 1: throw the actual backend message, not a generic one
