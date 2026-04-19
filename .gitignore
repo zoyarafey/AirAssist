@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Mac junk
+.DS_Store
+**/.DS_Store
+
+# Node modules (never push this — it's 300MB+)
+node_modules/
+frontend/node_modules/
+
+# Vite cache
+frontend/.vite/
+frontend/node_modules/.vite/
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# VS Code
+.vscode/
+
+# Python virtual env
+venv/
+.venv/

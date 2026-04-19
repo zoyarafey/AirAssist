@@ -3,25 +3,22 @@
 const BASE_URL = 'https://airassist.onrender.com'
 
 async function apiCall(endpoint, method = 'GET', body = null) {
-  const options = {
-    method,
-    headers: { 'Content-Type': 'application/json' },
-  }
-  if (body) options.body = JSON.stringify(body)
+  const controller = new AbortController()
+  const timeout = setTimeout(() => controller.abort(), 10000)
 
   try {
-    // FIX 1: prefix /api so Vite proxy forwards to http://localhost:8000
-    const res = await fetch(`${BASE_URL}${endpoint}`, options)
-    if (!res.ok) {
-      const err = await res.json().catch(() => ({ detail: 'Server error' }))
-      // FIX 1: throw the actual backend message, not a generic one
-      throw new Error(err.detail || `Request failed (${res.status})`)
-    }
-    return res.json()
+    const res = await fetch(endpoint, {
+      method,
+      headers: { 'Content-Type': 'application/json' },
+      body: body ? JSON.stringify(body) : null,
+      signal: controller.signal
+    })
+    
+    clearTimeout(timeout)
   } catch (err) {
-    // FIX 1: distinguish network errors from backend errors
-    if (err.name === 'TypeError' && err.message.includes('fetch')) {
-      throw new Error('Cannot connect to server. Make sure the backend is running on port 8000.')
+    clearTimeout(timeout)
+    if (err.name === 'AbortError') {
+      throw new Error('Request timed out. Please check your connection and try again.')
     }
     throw err
   }

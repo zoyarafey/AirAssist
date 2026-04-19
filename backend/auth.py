@@ -19,30 +19,26 @@ def login_user(email: str, password: str) -> dict:
             }
     return {"success": False, "message": "Invalid email or password. Please try again."}
 
-def signup_user(name: str, email: str, phone: str, password: str, address: str = "") -> dict:
-    existing = find_one("users.csv", "email", email)
+def signup_user(name, email, phone, password, address):
+    # Read once only
+    users = read_csv("users.csv")
+    
+    # Use next() with a generator — stops at first match, doesn't loop all rows
+    existing = next((u for u in users if u["email"].lower() == email.lower()), None)
     if existing:
-        return {"success": False, "message": "An account with this email already exists. Please log in."}
-    uid = generate_user_id()
-    username = email.split("@")[0].replace(".", "_")
+        return {"success": False, "message": "An account with this email already exists."}
+    
+    # Generate user_id from length — no second read needed
+    new_id = f"USR{str(len(users) + 1).zfill(6)}"
+    
     new_user = {
-        "user_id": uid,
-        "username": username,
+        "user_id":       new_id,
+        "username":      email.split("@")[0],
         "password_hash": password,
-        "full_name": name,
-        "email": email,
-        "phone": phone,
-        "address": address
+        "full_name":     name,
+        "email":         email.lower().strip(),
+        "phone":         phone.strip(),
+        "address":       address.strip(),
     }
     append_row("users.csv", new_user)
-    return {
-        "success": True,
-        "customer_id": uid,
-        "user_id": uid,
-        "name": name,
-        "full_name": name,
-        "username": username,
-        "email": email,
-        "phone": phone,
-        "address": address
-    }
+    return {"success": True, "user": new_user}

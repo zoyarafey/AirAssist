@@ -144,7 +144,7 @@ export default function LoginPage() {
           {/* Demo hint — unchanged */}
           <div className="mt-4 bg-navy-800/60 rounded-xl px-4 py-3 border border-white/5">
             <p className="text-xs text-gray-500 text-center">
-              Demo: <span className="text-gray-400 font-mono">amar.sharma@email.com</span> / <span className="text-gray-400 font-mono">password123</span>
+              
             </p>
           </div>
         </div>
