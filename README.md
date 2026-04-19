@@ -1,6 +1,10 @@
 # ✈️ AirAssist — Airline Chatbot 
 
 A full-stack rule-based airline customer support chatbot with login, flight booking, cancellation, policy lookup, and journey update features.
+----
+## 🌐 Live Project
+Live Frontend: https://air-assist-pink.vercel.app
+Backend API: https://airassist.onrender.com
 
 ---
 
@@ -43,25 +47,6 @@ airassist/
     └── utils/              # CSV handler, helpers
 ```
 
----
-
-## 🚀 Running the Project
-
-### Backend
-```bash
-cd backend
-pip install fastapi uvicorn
-uvicorn main:app --reload --port 8000
-```
-
-### Frontend
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Then open: **http://localhost:3000**
 
 ---
 
